@@ -1,0 +1,72 @@
+/* ***************** */
+/* STICKY NAV */
+/* ***************** */
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 7rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: rgba(255, 255, 255, 0.97);
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+}
+
+.sticky .section-hero {
+  margin-top: 6.4rem;
+}
+
+/* ***************** */
+/* MAIN NAV OVERLAY */
+/* ***************** */
+.btn--mobile-nav {
+  display: none;
+}
+
+/* ***************** */
+/* GALLERY OVERLAY */
+/* ***************** */
+.gallery-container {
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 1111;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3.2rem;
+
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.overlay-open.gallery-container {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.gallery-overlay-item img {
+  max-height: 98vh;
+  max-width: 80vw;
+}
+
+.overlay-close {
+  position: absolute;
+  top: 2.4rem;
+  right: 3.2rem;
+}
+
+.backdrop.section-gallery {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1111;
+}

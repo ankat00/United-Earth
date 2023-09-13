@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="United Earth fights for giving nature's wild life a voice humans can
+    understand. Our teams spread awareness, protect animals's rights in front of the
+    law, clean up and invent new sustainable technologies for a better
+    future."
+    />
+
+    <link rel="icon" href="img/favicons/favicon.png" />
+    <link rel="apple-touch-icon" href="img/favicons/favicon-apple-touch.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/overlays.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <title>United Earth</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#"
+        ><img class="logo" alt="United Earth Logo" src="img/logo.png" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">Projects</a></li>
+          <li><a class="main-nav-link" href="#">Animals</a></li>
+          <li><a class="main-nav-link" href="#">Your impact</a></li>
+          <li><a class="main-nav-link" href="#">Blog</a></li>
+          <li><a class="main-nav-link" href="#">About</a></li>
+          <li><a class="nav-cta" href="#">Get active</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn--mobile-nav menu-open">
+        <img
+          class="icon-mobile-nav"
+          src="icons/icon-menu-open.svg"
+          alt="Icon menu open"
+          name="menu-open"
+        />
+      </button>
+
+      <button class="btn--mobile-nav menu-close">
+        <img
+          class="icon-mobile-nav"
+          src="icons/icon-menu-close.svg"
+          alt="Icon menu close"
+          name="menu-close"
+        />
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <h1 class="heading-primary">
+          What are the <span>consequences</span> of our actions?
+        </h1>
+      </section>
+
+      <section class="section-facts container grid grid--3-cols">
+        <div class="fact">
+          <p class="fact-number">42.100</p>
+          <p class="fact-text">species threatend</p>
+        </div>
+        <div class="fact">
+          <p class="fact-number">16.306</p>
+          <p class="fact-text">species endangered</p>
+        </div>
+        <div class="fact">
+          <p class="fact-number">11.549</p>
+          <p class="fact-text">helping hands <span>worldwide</span></p>
+        </div>
+      </section>
+
+      <section class="section-what grid grid--2-cols">
+        <div class="mission">
+          <h2 class="heading-secondary">Our mission</h2>
+          <p class="mission-text">
+            Rising to the top of the food chain comes with a lot of
+            responsibility. Right now, mankind struggles to take care of them.
+          </p>
+          <p class="mission-text">
+            United Earth fights for giving nature's wild life a voice humans can
+            understand.
+            <span
+              >Right now we litter, we exploit, we enslave other living beings.
+              This needs to stop.</span
+            >
+            Our teams spread awareness, protect animals's rights in front of the
+            law, clean up and invent new sustainable technologies for a better
+            future.
+          </p>
+          <p class="mission-text">
+            We not only care about humans respecting nature, we also believe in
+            respecting each other.
+            <span>Let's start treating each other that way.</span>
+          </p>
+          <p class="mission-text">
+            <span>Together we can make a change</span> - from the individual to
+            multi-million-dollar-companies. We can't influence nature's natuarl
+            cycle, but we can nurish it as best we can.
+          </p>
+          <a class="btn btn--prim margin-right-sm" href="#">Help now</a>
+          <a class="btn btn--sec" href="#">Learn more</a>
+        </div>
+
+        <div
+          class="mission-img-box"
+          role="img"
+          aria-label="Face of tiger"
+        ></div>
+      </section>
+
+      <section class="section-gallery">
+        <div class="gallery-container">
+          <button class="btn--overlay overlay-close">
+            <img
+              class="overlay-nav-icon"
+              src="icons/icon-overlay-close.svg"
+              alt="Icon overlay close"
+            />
+          </button>
+          <button class="btn--overlay btn-backwards">
+            <img
+              src="icons/icon-arrow-left.svg"
+              class="overlay-nav-icon"
+              alt="Icon arrow left"
+            />
+          </button>
+          <figure class="gallery-overlay-item">
+            <img id="gallery-img-main" data-image="" src="" alt="" />
+          </figure>
+          <button class="btn--overlay btn-forwards">
+            <img
+              src="icons/icon-arrow-right.svg"
+              class="overlay-nav-icon"
+              alt="Icon arrow right"
+            />
+          </button>
+        </div>
+
+        <div class="grid-gallery">
+          <figure class="gallery-item i-1">
+            <img
+              id="gallery-img--1"
+              src="img/Gallery/gallery-img--1.jpg"
+              alt="Cheetah on grey background"
+            />
+          </figure>
+          <figure class="gallery-item i-2">
+            <img
+              id="gallery-img--2"
+              src="img/Gallery/gallery-img--2.jpg"
+              alt="Penguins in snow"
+            />
+          </figure>
+          <figure class="gallery-item i-3">
+            <img
+              id="gallery-img--3"
+              src="img/Gallery/gallery-img--3.jpg"
+              alt="Lion family by oasis"
+            />
+          </figure>
+          <figure class="gallery-item i-4">
+            <img
+              id="gallery-img--4"
+              src="img/Gallery/gallery-img--4.jpg"
+              alt="Baby elephant by mother's leg"
+            />
+          </figure>
+          <figure class="gallery-item i-5">
+            <img
+              id="gallery-img--5"
+              src="img/Gallery/gallery-img--5.jpg"
+              alt="Group of cows in small space"
+            />
+          </figure>
+          <figure class="gallery-item i-6">
+            <img
+              id="gallery-img--6"
+              src="img/Gallery/gallery-img--6.jpg"
+              alt="Hippo's head looking out of water"
+            />
+          </figure>
+          <figure class="gallery-item i-7">
+            <img
+              id="gallery-img--7"
+              src="img/Gallery/gallery-img--7.jpg"
+              alt="Turtle swimming in the sea"
+            />
+          </figure>
+          <figure class="gallery-item i-8">
+            <img
+              id="gallery-img--8"
+              src="img/Gallery/gallery-img--8.jpg"
+              alt="Peacock in misty forest"
+            />
+          </figure>
+          <figure class="gallery-item i-9">
+            <img
+              id="gallery-img--9"
+              src="img/Gallery/gallery-img--9.jpg"
+              alt="Whale family swimming in the sea"
+            />
+          </figure>
+          <figure class="gallery-item i-10">
+            <img
+              id="gallery-img--10"
+              src="img/Gallery/gallery-img--10.jpg"
+              alt="Two wolves playing"
+            />
+          </figure>
+          <figure class="gallery-item i-11">
+            <img
+              id="gallery-img--11"
+              src="img/Gallery/gallery-img--11.jpg"
+              alt="Rhino in natural habitat"
+            />
+          </figure>
+          <figure class="gallery-item i-12">
+            <img
+              id="gallery-img--12"
+              src="img/Gallery/gallery-img--12.jpg"
+              alt="Mother gorilla with baby in forest"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-latest">
+        <div class="container">
+          <h2 class="heading-secondary">Latest News</h2>
+          <div class="grid grid--3-cols">
+            <!-- ART 01 -->
+            <article class="post post--big" id="post-atmp">
+              <img src="img/amazon-forest.jpg" alt="Amazon Forest" />
+              <div class="post-text-box">
+                <h3 class="heading-card">Battlefield: Amazon Forest</h3>
+                <p class="post-preview">
+                  The burning down of the Amazon Rainforest costs many unique
+                  plant and animal species the life - some of them are the last
+                  of their kind. But what can you do if politics, games of power
+                  and money rule over a biotop's destiny?
+                </p>
+                <a class="link" href="#">See article</a>
+              </div>
+            </article>
+
+            <!-- ART 02 -->
+            <article class="post post--big">
+              <img src="img/octopus.jpg" alt="Red and blue octupus" />
+              <div class="post-text-box">
+                <h3 class="heading-card">Sea Farming</h3>
+                <p class="post-preview">
+                  Industries now are planning on disrupting the ocean's ground
+                  in search for resources. This will not only destroy the
+                  untouched life in the deep sea but also affect millions of
+                  water-species's hearing and orientation - leading to more
+                  stranded animals.
+                </p>
+                <a class="link" href="#">See article</a>
+              </div>
+            </article>
+
+            <!-- ART 03 -->
+            <article class="post post--sml">
+              <div class="heading-box">
+                <img
+                  src="img/brown-bear.jpg"
+                  alt="Brown bear walking on grass in front of forest"
+                />
+                <p class="heading-box-title">
+                  New Home for our Caucasian Friends
+                </p>
+              </div>
+              <div class="post-text-box">
+                <p class="post-preview">
+                  We have good news! Our animal shelter in Georgia's caucasian
+                  mountains is now home to 300+ lost and hurt animals. Wild
+                  dogs, bears, and even horses are being taken care of by our
+                  workers and the local community.
+                </p>
+                <a class="link" href="#">See article</a>
+              </div>
+            </article>
+
+            <!-- ART 04 -->
+            <article class="post post--sml">
+              <div class="heading-box">
+                <img src="img/green-roofs.jpg" alt="Amazon Forest" />
+                <p class="heading-box-title">
+                  Greener Roofs for a Greener City
+                </p>
+              </div>
+              <div class="post-text-box">
+                <p class="post-preview">
+                  Major cities like New York, Tokio and London now invest into
+                  rooftop parks and bee sanctuaries. This will create space for
+                  wild flowers and a full diversity of insects to flourish right
+                  in the center of our world's most hectic metropols.
+                </p>
+                <a class="link" href="#">See article</a>
+              </div>
+            </article>
+          </div>
+          <div class="text-center">
+            <a class="link" href="#">More articles</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-help container">
+        <h2 class="heading-secondary">How you can make a difference</h2>
+        <div class="grid grid--3-cols">
+          <!-- OPT 01 -->
+          <div class="option opt-1">
+            <div class="option-text-box">
+              <h3 class="heading-card">Every cent counts</h3>
+              <p class="option-text">
+                Your donation helps to create sanctuaries for homeless animals,
+                fight for their protection and save whole species from
+                extinction. You decide how much, you decide what for.
+              </p>
+              <a class="btn btn--prim" href="#">Donate</a>
+            </div>
+          </div>
+
+          <!-- OPT 02 -->
+          <div class="option opt-2">
+            <div class="option-text-box">
+              <h3 class="heading-card">Extend your family</h3>
+              <p class="option-text">
+                Many animals might never be able to return into their wild
+                habitat. Welcome them into your family today. We offer weekly
+                updates and exclusive behind-the-scenes-material to all
+                sponsors.
+              </p>
+              <a class="btn btn--prim" href="#">Adopt</a>
+            </div>
+          </div>
+
+          <!-- OPT 03 -->
+          <div class="option opt-3">
+            <div class="option-text-box">
+              <h3 class="heading-card">Act local - help global!</h3>
+              <p class="option-text">
+                Everybody can have an impact, even with the smallest actions.
+                Learn more in our free online courses and start protecting
+                nature today! Seminars available for companies.
+              </p>
+              <a class="btn btn--prim" href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="join grid grid--2-cols">
+          <div class="work">
+            <h3 class="heading-tertiary">Join our team!</h3>
+            <p class="work-text">
+              Our organization welcomes everyone with a passion for animals and
+              nature. We offer contract-based positions in all areas and
+              volunteering programms all over the world - with the opportunity
+              to get a permanent job! Everybody can help.
+              <span>Find your dream position now:</span>
+            </p>
+            <a class="link" href="#">All jobs</a>
+          </div>
+          <div
+            class="work-img-box"
+            role="img"
+            aria-label="Man stroking elephant"
+          ></div>
+        </div>
+
+        <div class="successes text-center">
+          <h3 class="heading-tertiary">Battles we've won</h3>
+          <div class="success-listing grid grid--3-cols">
+            <!-- SUCC 01 -->
+            <div class="success">
+              <img
+                class="icon-success"
+                src="icons/icon-care.png"
+                alt="Icon care for animals"
+              />
+              <p class="success-number">649</p>
+              <p class="success-text">
+                sanctuaries built across the globe.
+                <span
+                  >From whales to tigers, we protect and help hundreds of
+                  species in our shelters until they're ready to live in their
+                  wild homes again.</span
+                >
+              </p>
+            </div>
+
+            <!-- SUCC 02 -->
+            <div class="success">
+              <img
+                class="icon-success"
+                src="icons/icon-horns.png"
+                alt="Icon stop taking tusks"
+              />
+              <p class="success-number">410</p>
+              <p class="success-text">
+                elephants rescued in India and Africa.
+                <span
+                  >They've been brutally hunted for their tusks or robbed of
+                  their natural habitat. We treat them and fight for their
+                  rights.</span
+                >
+              </p>
+            </div>
+
+            <!-- SUCC 03 -->
+            <div class="success">
+              <img
+                class="icon-success"
+                src="icons/icon-ocean.png"
+                alt="Icon stop littering waters"
+              />
+              <p class="success-number">38.7 Mio</p>
+              <p class="success-text">
+                tons plastic removed from the seas.
+                <span
+                  >Waste destroyes the ocean's wild life and puts animals like
+                  turtles and dolphins in danger. Our teams actively clean the
+                  waters and work on innovative solutions.</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-partners container text-center">
+        <p class="heading-partners">Our partners</p>
+        <div class="logos">
+          <img
+            class="icon-logos"
+            src="img/Logos/greenpeace.png"
+            alt="Greenpeace logo"
+          />
+          <img
+            class="icon-logos"
+            src="img/Logos/workaway.png"
+            alt="workaway logo"
+          />
+          <img class="icon-logos" src="img/Logos/wwf.png" alt="WWF logo" />
+          <img
+            class="icon-logos"
+            src="img/Logos/fourpaws.png"
+            alt="Four Paws logo"
+          />
+          <img class="icon-logos" src="img/Logos/oipa.png" alt="OIPA logo" />
+        </div>
+      </section>
+
+      <section class="section-cta grid grid--2-cols">
+        <div class="cta-box">
+          <h2 class="heading-secondary">Tell us what's important to you</h2>
+          <p class="cta-text">
+            Our goal is to protect animals all over the world. Are there animals
+            in your home country in need for help? Do you know about an issue
+            we're not already tackling? Become our eyes and
+            <span>share your thoughts & passions with us now.</span>
+          </p>
+
+          <form class="cta-form" action="#">
+            <div class="form-field">
+              <label for="name">Full name &#42;</label>
+              <input
+                id="name"
+                type="text"
+                placeholder="Luke Ross"
+                required
+                autocomplete="name"
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="email">Email address &#42;</label>
+              <input
+                id="email"
+                type="email"
+                placeholder="me@example.com"
+                required
+                autocomplete="email"
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="select-what"
+                >What topic are you writing about? &#42;</label
+              >
+              <select id="select-what" required>
+                <option value="">Please choose a topic:</option>
+                <option value="harm">Harm against animals</option>
+                <option value="destruction">Environmental Destruction</option>
+                <option value="oceans">Oceanic world</option>
+                <option value="critique">Our work</option>
+                <option value="others">Others</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="country">Your country</label>
+              <input
+                id="country"
+                type="text"
+                placeholder="Write here"
+                autocomplete="country"
+              />
+            </div>
+
+            <div class="btn-container">
+              <button class="btn--cta">Send</button>
+              <p class="from-disclaimer">
+                Nothing stays unanswered. You will hear from us soon.
+              </p>
+            </div>
+          </form>
+        </div>
+
+        <div
+          class="cta-img-box"
+          role="img"
+          aria-label=" Polar bear waving his hand"
+        ></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid--footer">
+        <div class="col--newsletter">
+          <p class="heading-newsletter">Join our mission</p>
+          <p class="newsletter-info-text">
+            Sign up for our weekly newsletter and follow us on our mission to
+            protect all life on earth. Share your opinions in exciting surveys.
+            100% free & anonymous
+          </p>
+          <form class="newsletter">
+            <div class="newsletter-container">
+              <div class="news-input-box">
+                <label for="sub-name">Your name &#42;</label>
+                <input
+                  id="sub-name"
+                  type="text"
+                  placeholder="Luke"
+                  required
+                  autocomplete="name"
+                />
+              </div>
+
+              <div class="news-input-box">
+                <label for="sub-email">Your email &#42;</label>
+                <input
+                  id="sub-email"
+                  type="email"
+                  placeholder="me@example.com"
+                  required
+                  autocomplete="email"
+                />
+              </div>
+            </div>
+
+            <div class="agreement-box">
+              <input id="sub-checkbox" type="checkbox" required />
+              <p>
+                &#42; I have read and accept the
+                <a class="footer-link" href="#">Terms & Conditions</a>.
+              </p>
+            </div>
+            <button class="btn--news">Subscribe</button>
+          </form>
+        </div>
+
+        <div class="col col--nav">
+          <nav class="footer-nav">
+            <p class="footer-heading">Explore</p>
+            <ul class="footer-nav-list">
+              <li>
+                <a class="footer-link" href="#">Projects</a>
+                <p class="link-info">What we are working on</p>
+              </li>
+              <li>
+                <a class="footer-link" href="#">Animals</a>
+                <p class="link-info">Endangered and protected species</p>
+              </li>
+              <li>
+                <a class="footer-link" href="#">Your impact</a>
+                <p class="link-info">Find out how you can help!</p>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="footer-nav-general">
+            <ul>
+              <li><a class="footer-link" href="#">Blog</a></li>
+              <li><a class="footer-link" href="#">About</a></li>
+              <li><a class="footer-link" href="#">Legal</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col col--contact">
+          <p class="footer-heading">Contact Us</p>
+          <div class="col-box">
+            <address class="contact">
+              <p class="address">
+                R. da Escola Politécnica 58, <br />
+                1250-102 Lisboa
+              </p>
+              <a class="footer-link" href="tel:351-738-8475"
+                ><span>Phone:</span> 351-738-8475</a
+              >
+              <br />
+              <a class="footer-link" href="mailto:contact@uearth.com"
+                ><span>Email:</span> contact@uearth.com</a
+              >
+            </address>
+
+            <div class="footer-logo-box">
+              <a href="#"
+                ><img class="logo" alt="United Earth Logo" src="img/logo.png" />
+              </a>
+              <div class="social-logo-box">
+                <img src="icons/icon-youtube.svg" alt="Logo Youtube" />
+                <img src="icons/icon-instagram.svg" alt="Logo Youtube" />
+                <img src="icons/icon-twitter.svg" alt="Logo Youtube" />
+              </div>
+              <p class="copyright">
+                Copyright &copy; <span class="year">2023</span> by United Earth,
+                Inc. All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script defer src="script.js"></script>
+  </body>
+</html>
